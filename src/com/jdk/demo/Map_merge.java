@@ -24,7 +24,6 @@ public class Map_merge {
                 scoreMap.put(stu.getName(), stu.getScore());
             }
         });
-
         System.out.println(scoreMap);
 
         //merge方法
@@ -32,7 +31,8 @@ public class Map_merge {
         stuList.forEach(stu->{
             scoreMap2.merge(stu.getName(),stu.getScore(),Integer::sum);
         });
-
         System.out.println(scoreMap2);
+
+
     }
 }
