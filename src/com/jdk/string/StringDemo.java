@@ -17,5 +17,13 @@ public class StringDemo {
         System.out.println(str.replace(str.charAt(4), 'E'));
 
 
+        //StringBuilder
+        StringBuilder stringBuilder_1 = new StringBuilder();//默认容量16
+        StringBuilder stringBuilder_2 = new StringBuilder("3");//length+16
+        System.out.println(stringBuilder_1.length());
+        System.out.println(stringBuilder_1.capacity());
+        System.out.println(stringBuilder_2);
+        System.out.println(stringBuilder_2.length());
+        System.out.println(stringBuilder_2.capacity());
     }
 }
