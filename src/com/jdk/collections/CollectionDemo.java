@@ -27,5 +27,8 @@ public class CollectionDemo {
         //Lambda遍历
         map.forEach((k,v)->System.out.println(k+"-:-"+v));
 
+        //Arrays.asList
+        List<String> asList = Arrays.asList("br1", "br2", "br3");
+        asList.forEach(l-> System.out.println(l));
     }
 }
