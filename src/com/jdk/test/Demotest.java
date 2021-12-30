@@ -7,7 +7,6 @@ public class Demotest {
     public static void main(String[] args) {
         int a=1500;
         int b=1650;
-	int c=2300;
         Demo demo=new DemoImpl();
         System.out.println(demo.add(a,b));
     }
