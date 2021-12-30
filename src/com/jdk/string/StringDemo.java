@@ -25,5 +25,8 @@ public class StringDemo {
         System.out.println(stringBuilder_2);
         System.out.println(stringBuilder_2.length());
         System.out.println(stringBuilder_2.capacity());
+        stringBuilder_1.append(stringBuilder_2);
+        System.out.println(stringBuilder_1);
+        System.out.println(stringBuilder_1.capacity());
     }
 }
