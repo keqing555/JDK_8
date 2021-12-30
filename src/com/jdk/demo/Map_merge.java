@@ -1,18 +1,15 @@
 package com.jdk.demo;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Map_merge {
 
     public static void main(String[] args) {
-        List<Student> stuList = new ArrayList<>();
-        stuList.add(new Student("张三", "语文", 70));
-        stuList.add(new Student("张三", "数学", 80));
-        stuList.add(new Student("李四", "语文", 60));
-        stuList.add(new Student("李四", "数学", 70));
+        List<Student> stuList = Arrays.asList(
+                new Student("张三", "语文", 70),
+                new Student("张三", "数学", 80),
+                new Student("李四", "语文", 60),
+                new Student("李四", "数学", 70));
 
         Map<String, Integer> scoreMap = new HashMap<>();
 
