@@ -1,5 +1,7 @@
 package com.jdk.demo;
 
+import com.jdk.bean.Student;
+
 import java.util.*;
 
 public class Map_merge {

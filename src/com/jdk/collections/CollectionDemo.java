@@ -1,5 +1,7 @@
 package com.jdk.collections;
 
+import com.jdk.bean.Student;
+
 import java.util.*;
 
 public class CollectionDemo {
@@ -25,10 +27,19 @@ public class CollectionDemo {
         }
 
         //Lambda遍历
-        map.forEach((k,v)->System.out.println(k+"-:-"+v));
+        map.forEach((k, v) -> System.out.println(k + "-:-" + v));
 
         //Arrays.asList
         List<String> asList = Arrays.asList("br1", "br2", "br3");
-        asList.forEach(l-> System.out.println(l));
+        asList.forEach(l -> System.out.println(l));
+
+        List<Student> list = Arrays.asList(
+                new Student("张三", "语文", 70),
+                new Student("张三", "数学", 80),
+                new Student("李四", "语文", 60),
+                new Student("李四", "数学", 70));
+        Random r=new Random();
+        System.out.println(list.get(r.nextInt(1)+3));
+
     }
 }

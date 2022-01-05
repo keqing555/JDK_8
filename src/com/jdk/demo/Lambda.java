@@ -1,5 +1,7 @@
 package com.jdk.demo;
 
+import com.jdk.bean.Student;
+
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;

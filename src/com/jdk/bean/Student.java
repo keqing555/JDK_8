@@ -1,4 +1,4 @@
-package com.jdk.demo;
+package com.jdk.bean;
 
 public class Student {
     private String name;
